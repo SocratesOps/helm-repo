@@ -3,7 +3,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2024-04-18T12:34:54.567715+03:30"
+    created: "2024-04-18T13:01:00.069893+03:30"
     deprecated: true
     description: DEPRECATED - Open source continuous integration server. It supports
       multiple SCM tools including CVS, Subversion and Git. It can execute Apache
@@ -18,12 +18,36 @@ entries:
     - https://github.com/maorfr/kube-tasks
     - https://github.com/jenkinsci/configuration-as-code-plugin
     urls:
-    - jenkins-2.5.4.tgz
+    - https://socratesops.github.io/helm-repo/jenkins-2.5.4.tgz
     version: 2.5.4
+  mongodb:
+  - apiVersion: v1
+    appVersion: 4.2.4
+    created: "2024-04-18T13:01:00.072886+03:30"
+    deprecated: true
+    description: DEPRECATED NoSQL document-oriented database that stores JSON-like
+      documents with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: f2dc27cdde3a4d0cde5f747c73b36af4a53cdae10b5a1dd74fb3b485c595a183
+    home: https://mongodb.org
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - https://socratesops.github.io/helm-repo/mongodb-7.8.10.tgz
+    version: 7.8.10
   mysql:
   - apiVersion: v1
     appVersion: 5.7.30
-    created: "2024-04-18T12:34:54.568652+03:30"
+    created: "2024-04-18T13:01:00.07357+03:30"
     deprecated: true
     description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source
       relational database system.
@@ -39,12 +63,12 @@ entries:
     - https://github.com/kubernetes/charts
     - https://github.com/docker-library/mysql
     urls:
-    - mysql-1.6.9.tgz
+    - https://socratesops.github.io/helm-repo/mysql-1.6.9.tgz
     version: 1.6.9
   spark:
   - apiVersion: v1
     appVersion: 1.5.1
-    created: "2024-04-18T12:34:54.569254+03:30"
+    created: "2024-04-18T13:01:00.074011+03:30"
     deprecated: true
     description: DEPRECATED - Fast and general-purpose cluster computing system.
     digest: e0b4862812f85dcf7b92d71ed90e9f894f1aef35bb76f384fe322ba736cd10fc
@@ -55,6 +79,6 @@ entries:
     - https://github.com/kubernetes/kubernetes/tree/master/examples/spark
     - https://github.com/apache/spark
     urls:
-    - spark-1.0.5.tgz
+    - https://socratesops.github.io/helm-repo/spark-1.0.5.tgz
     version: 1.0.5
-generated: "2024-04-18T12:34:54.564195+03:30"
+generated: "2024-04-18T13:01:00.067417+03:30"
